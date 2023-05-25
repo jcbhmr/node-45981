@@ -2,7 +2,15 @@
   "name": "@jcbhmr/node-45993",
   "version": "1.0.0",
   "description": "⏰ Make the global object an EventTarget",
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "simple",
+    "idea",
+    "pull-request"
+  ],
+  "homepage": "https://github.com/jcbhmr/node-45993#readme",
+  "bugs": "https://github.com/jcbhmr/node-45993/issues",
+  "repository": "github:jcbhmr/node-45993",
   "license": "MIT",
   "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
   "type": "module",
