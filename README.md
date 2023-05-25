@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![](https://user-images.githubusercontent.com/61068799/241071338-c228584f-7442-4910-aec9-92f0142fc6a6.png)
+[![](https://thum.io/get/width/600/crop/800/https://github.com/nodejs/node/issues/45981)](https://github.com/nodejs/node/issues/45981)
 
 </div>
 
