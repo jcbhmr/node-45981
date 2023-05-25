@@ -1,6 +1,6 @@
 {
   "name": "@jcbhmr/node-45981",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "⏰ Make the global object an EventTarget",
   "keywords": [
     "nodejs",
