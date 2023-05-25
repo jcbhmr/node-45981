@@ -23,14 +23,14 @@ You can install this package using npm, [Yarn], [pnpm], or any other Node.js
 package manager that supports npm packages:
 
 ```sh
-npm install @jcbhmr/node-45993
+npm install @jcbhmr/node-45981
 ```
 
 🛑 This package **only works in Node.js**! Other export conditions will result
 in a non-existent file error:
 
 ```sh
-Error [ERR_MODULE_NOT_FOUND]: Cannot find module '***/node_modules/@jcbhmr/node-45993/DNE'
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '***/node_modules/@jcbhmr/node-45981/DNE'
     at ... {
   code: 'ERR_MODULE_NOT_FOUND'
 }
@@ -50,7 +50,7 @@ reset the prototype of `globalThis` to `EventTarget`, even if it already is!
 ```js
 // Make sure you gate it behind a conditional!
 if (!(globalThis instanceof EventTarget) && typeof process !== "undefined") {
-  await import("@jcbhmr/node-45993");
+  await import("@jcbhmr/node-45981");
 }
 
 globalThis.addEventListener("hello", (event) => {
