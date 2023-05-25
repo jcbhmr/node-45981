@@ -8,8 +8,8 @@
 
 </div>
 
-📜 Implements [nodejs/node#45993] in userland \
-🗣️ Discuss in [nodejs/node#45981] \
+🙌 Implements the idea from [nodejs/node#45981] \
+👴 Will be obsolete if [nodejs/node#45993] is merged \
 ⛔ **Doesn't** add any event listeners or emitters \
 🛑 Only works in Node.js
 
@@ -62,32 +62,30 @@ globalThis.dispatchEvent(event);
 //=> 'world'
 ```
 
-This polyfill reimplements the native code from [nodejs/node#45993] in userland
-code. It's not a very large module, but it's a module designed to compose well
-with other spec-related polyfills that need to emit global events.
-
 ## Development
 
 ![JavaScript](https://img.shields.io/static/v1?style=for-the-badge&message=JavaScript&color=222222&logo=JavaScript&logoColor=F7DF1E&label=)
 ![Node.js](https://img.shields.io/static/v1?style=for-the-badge&message=Node.js&color=339933&logo=Node.js&logoColor=FFFFFF&label=)
 
-This package uses plain JavaScript with a `.d.ts` file to attempt to conform as
-much as possible to [nodejs/node#45993]. We don't even typecheck! 😨
+❤️ Future developers: Make sure to deprecate this package if [nodejs/node#45993]
+is ever merged!
 
-You can get started by cloning this repo and running `npm install`. From there,
-just run `npm start` or `npm test` and you're on your way! 🚀
+This package uses plain JavaScript with a `.d.ts` file. We don't even typecheck!
+😨 Why would we do such a thing? Because this package is so simplistic, we can
+get away with it. You can get started by cloning this repo and running
+`npm install`. From there, just run `npm start` or `npm test` and you're on your
+way! 🚀
 
 ```sh
 npm start
 ```
 
 **What's in the name?** This is an as-close-as-possible implementation of
-[nodejs/node#45993], so it made sense to follow the `${spec}-${section}` style
-naming convention, just with "node" being a spec now. 😁
+[nodejs/node#45981], so it made sense to follow the `${spec}-${section}` style
+naming convention, just with "node" being a spec now, and "45981" being the
+section that we are implementing. 😁
 
-❤️ Make sure to deprecate this package if [nodejs/node#45993] is ever merged!
-
-[Yarn]: https://yarnpkg.com/
+[yarn]: https://yarnpkg.com/
 [pnpm]: https://pnpm.io/
 [nodejs/node#45981]: https://github.com/nodejs/node/issues/45981
 [nodejs/node#45993]: https://github.com/nodejs/node/pull/45993

@@ -1,5 +1,5 @@
 {
-  "name": "@jcbhmr/node-45993",
+  "name": "@jcbhmr/node-45981",
   "version": "1.0.3",
   "description": "⏰ Make the global object an EventTarget",
   "keywords": [
@@ -8,9 +8,9 @@
     "idea",
     "pull-request"
   ],
-  "homepage": "https://github.com/jcbhmr/node-45993#readme",
-  "bugs": "https://github.com/jcbhmr/node-45993/issues",
-  "repository": "github:jcbhmr/node-45993",
+  "homepage": "https://github.com/jcbhmr/node-45981#readme",
+  "bugs": "https://github.com/jcbhmr/node-45981/issues",
+  "repository": "github:jcbhmr/node-45981",
   "license": "MIT",
   "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
   "type": "module",
