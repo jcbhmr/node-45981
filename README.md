@@ -48,7 +48,7 @@ of you main app code and apply it manually at runtime.
 reset the prototype of `globalThis` to `EventTarget`, even if it already is!
 
 ```js
-// Make sure you if-gate it!
+// Make sure you gate it behind a conditional!
 if (!(globalThis instanceof EventTarget) && typeof process !== "undefined") {
   await import("@jcbhmr/node-45993");
 }
