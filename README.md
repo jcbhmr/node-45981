@@ -4,13 +4,14 @@
 
 <div align="center">
 
-![](https://user-images.githubusercontent.com/61068799/240774404-25d8d109-6883-49f0-a3e5-20cac94858b3.png)
+![](https://user-images.githubusercontent.com/61068799/240809272-045a38d6-4c79-4306-b19f-03fe6ac8ce2b.png)
 
 </div>
 
 📜 Implements [nodejs/node#45993] in userland \
 🗣️ Discuss in [nodejs/node#45981] \
-⛔ **Doesn't** add any event listeners or emitters
+⛔ **Doesn't** add any event listeners or emitters \
+🛑 Only works in Node.js
 
 ## Installation
 
@@ -43,8 +44,14 @@ All you need to do is import this polyfill in your app, and you're good to go!
 😊 You can also use the [`--import=module`] CLI flag if you want to keep it out
 of you main app code and apply it manually at runtime.
 
+⚠️ Be warned that this is an **unconditional polyfill** that will **always**
+reset the prototype of `globalThis` to `EventTarget`, even if it already is!
+
 ```js
-import "@jcbhmr/node-45993";
+// Make sure you if-gate it!
+if (!(globalThis instanceof EventTarget) && typeof process !== "undefined") {
+  await import("@jcbhmr/node-45993");
+}
 
 globalThis.addEventListener("hello", (event) => {
   console.log(event.detail);
