@@ -19,7 +19,7 @@
 ![pnpm](https://img.shields.io/static/v1?style=for-the-badge&message=pnpm&color=222222&logo=pnpm&logoColor=F69220&label=)
 
 You can install this package using npm, [Yarn], [pnpm], or any other Node.js
-package manager that supports [npm] packages:
+package manager that supports npm packages:
 
 ```sh
 npm install @jcbhmr/node-45993
@@ -80,6 +80,8 @@ naming convention, just with "node" being a spec now. 😁
 
 ❤️ Make sure to deprecate this package if [nodejs/node#45993] is ever merged!
 
+[Yarn]: https://yarnpkg.com/
+[pnpm]: https://pnpm.io/
 [nodejs/node#45981]: https://github.com/nodejs/node/issues/45981
 [nodejs/node#45993]: https://github.com/nodejs/node/pull/45993
 [`--import=module`]: https://nodejs.org/api/cli.html#--importmodule
