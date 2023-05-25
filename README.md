@@ -8,9 +8,9 @@
 
 </div>
 
-📜 Implements [nodejs/node#45993] \
+📜 Implements [nodejs/node#45993] in userland \
 🗣️ Discuss in [nodejs/node#45981] \
-🤚 **Doesn't** add any event listeners or emitters
+⛔ **Doesn't** add any event listeners or emitters
 
 ## Installation
 
