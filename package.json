@@ -1,0 +1,23 @@
+{
+  "name": "@jcbhmr/node-45993",
+  "version": "1.0.0",
+  "description": "⏰ Make the global object an EventTarget",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
+  "type": "module",
+  "exports": {
+    "deno": "./DNE",
+    "bun": "./DNE",
+    "node": "./index.js",
+    "default": "./DNE"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "start": "node --test --watch",
+    "test": "node --test"
+  }
+}
