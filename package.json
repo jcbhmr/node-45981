@@ -15,10 +15,9 @@
   "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
   "type": "module",
   "exports": {
-    "deno": "./DNE",
-    "bun": "./DNE",
-    "node": "./index.js",
-    "default": "./DNE"
+    "deno": null,
+    "bun": null,
+    "node": "./index.js"
   },
   "files": [
     "index.js",
